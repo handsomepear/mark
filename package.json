@@ -1,0 +1,28 @@
+{
+  "name": "zps",
+  "version": "0.0.1",
+  "description": "一个基于终端下的markdown文件转换器",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node lib/index"
+  },
+  "keywords": [
+    "zps",
+    "markdown",
+    "transform",
+    "preview",
+    "build"
+  ],
+  "bin": {
+    "mark": "./itcast.js"
+  },
+  "author": "zps",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.18.13",
+    "github-markdown-css": "^2.8.0",
+    "marked": "^0.3.6",
+    "opener": "^1.4.3"
+  }
+}
